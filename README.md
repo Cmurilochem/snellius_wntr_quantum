@@ -39,4 +39,4 @@ Note that you don't need to activate your environment every time you log in to S
 
 As we will be using `wntr-quantum` with `epanet-quantum`, you need also to compile locally this custom EPANET code that can be found at: https://github.com/QuantumApplicationLab/EPANET. To install it, simply follow the instructions given in https://github.com/QuantumApplicationLab/wntr-quantum.
 
-Note that, we don't need to set up the environment variables `EPANET_TMP` and `EPANET_QUANTUM` every time as they will also be set in the `SLURM` submission scripts.
+Note that, we don't need to set up the environment variables `EPANET_TMP` and `EPANET_QUANTUM` every time. They will also be set in the `SLURM` submission scripts.
