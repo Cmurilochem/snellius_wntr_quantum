@@ -35,7 +35,7 @@ pip install -e .
 
 Note that you don't need to activate your environment every time you log in to Snellius. This will be done from the `SLURM` submission scripts.
 
-### Installing EPANET Quantum in Snellius
+## Installing EPANET Quantum in Snellius
 
 As we will be using `wntr-quantum` with `epanet-quantum`, you need also to compile locally this custom EPANET code that can be found at: https://github.com/QuantumApplicationLab/EPANET. To install it, simply follow the instructions given in https://github.com/QuantumApplicationLab/wntr-quantum.
 
