@@ -1,88 +1,0 @@
-VQLS Iteration 1 Cost 8.130e-02VQLS Iteration 2 Cost 5.966e-02VQLS Iteration 3 Cost 3.337e-01VQLS Iteration 4 Cost 3.337e-01VQLS Iteration 5 Cost 3.337e-01VQLS Iteration 6 Cost 5.058e-01VQLS Iteration 7 Cost 3.500e-02VQLS Iteration 8 Cost 4.777e-02VQLS Iteration 9 Cost 3.500e-02VQLS Iteration 10 Cost 2.613e-01VQLS Iteration 11 Cost 2.995e-01VQLS Iteration 12 Cost 2.877e-03VQLS Iteration 13 Cost 2.321e-05VQLS Iteration 14 Cost 2.511e-03VQLS Iteration 15 Cost 4.257e-02VQLS Iteration 16 Cost 2.321e-05VQLS Iteration 17 Cost 7.568e-02VQLS Iteration 18 Cost 1.121e-02VQLS Iteration 19 Cost 2.391e-05VQLS Iteration 20 Cost 1.995e-02VQLS Iteration 21 Cost 4.348e-04VQLS Iteration 22 Cost 6.157e-04VQLS Iteration 23 Cost 2.321e-05VQLS Iteration 24 Cost 1.474e-03VQLS Iteration 25 Cost 4.000e-07VQLS Iteration 26 Cost 3.385e-07VQLS Iteration 27 Cost 2.507e-04VQLS Iteration 28 Cost 2.357e-04VQLS Iteration 29 Cost 5.495e-05VQLS Iteration 30 Cost 3.385e-07VQLS Iteration 31 Cost 5.947e-05VQLS Iteration 32 Cost 6.294e-06VQLS Iteration 33 Cost 3.845e-08VQLS Iteration 34 Cost 1.416e-05VQLS Iteration 35 Cost 2.203e-07VQLS Iteration 36 Cost 8.538e-06VQLS Iteration 37 Cost 7.098e-06VQLS Iteration 38 Cost 3.526e-06VQLS Iteration 39 Cost 2.600e-08VQLS Iteration 40 Cost 9.241e-07VQLS Iteration 41 Cost 9.977e-07VQLS Iteration 42 Cost 4.377e-09VQLS Iteration 43 Cost 9.337e-07VQLS Iteration 44 Cost 4.834e-08VQLS Iteration 45 Cost 3.616e-09VQLS Iteration 46 Cost 2.804e-07VQLS Iteration 47 Cost 3.859e-08VQLS Iteration 48 Cost 2.070e-09VQLS Iteration 49 Cost 4.867e-08VQLS Iteration 50 Cost 2.342e-08VQLS Iteration 51 Cost 3.703e-09VQLS Iteration 52 Cost 2.011e-09VQLS Iteration 53 Cost 2.733e-09VQLS Iteration 54 Cost 1.364e-08VQLS Iteration 1 Cost 1.364e-08VQLS Iteration 2 Cost 1.364e-08VQLS Iteration 3 Cost 1.364e-08VQLS Iteration 4 Cost 1.364e-08VQLS Iteration 5 Cost 1.364e-08VQLS Iteration 6 Cost 2.260e-08VQLS Iteration 7 Cost 2.261e-08VQLS Iteration 8 Cost 2.261e-08VQLS Iteration 9 Cost 2.261e-08VQLS Iteration 10 Cost 2.261e-08VQLS Iteration 11 Cost 1.110e-16VQLS Iteration 12 Cost -4.441e-16VQLS Iteration 13 Cost -4.441e-16VQLS Iteration 14 Cost -2.220e-16VQLS Iteration 15 Cost 3.331e-16Optimization terminated successfully.
-         Current function value: 0.000000
-         Iterations: 1
-         Function evaluations: 15
-         Gradient evaluations: 3
-
-   Normal return from subroutine COBYLA
-
-   NFVALS =   54   F = 1.364424E-08    MAXCV = 0.000000E+00
-   X = 2.390893E+00   1.368262E+00  -3.075412E+00   2.089887E+00
-VQLS Iteration 1 Cost 2.782e-02VQLS Iteration 2 Cost 2.840e-01VQLS Iteration 3 Cost 2.840e-01VQLS Iteration 4 Cost 2.840e-01VQLS Iteration 5 Cost 2.840e-01VQLS Iteration 6 Cost 7.709e-01VQLS Iteration 7 Cost 1.331e-01VQLS Iteration 8 Cost 4.120e-02VQLS Iteration 9 Cost 2.782e-02VQLS Iteration 10 Cost 6.349e-02VQLS Iteration 11 Cost 8.490e-02VQLS Iteration 12 Cost 2.510e-03VQLS Iteration 13 Cost 4.948e-03VQLS Iteration 14 Cost 2.423e-03VQLS Iteration 15 Cost 1.116e-04VQLS Iteration 16 Cost 3.135e-04VQLS Iteration 17 Cost 1.516e-03VQLS Iteration 18 Cost 6.363e-05VQLS Iteration 19 Cost 3.206e-03VQLS Iteration 20 Cost 8.700e-04VQLS Iteration 21 Cost 5.775e-05VQLS Iteration 22 Cost 5.784e-04VQLS Iteration 23 Cost 6.856e-05VQLS Iteration 24 Cost 5.293e-05VQLS Iteration 25 Cost 4.732e-05VQLS Iteration 26 Cost 1.371e-04VQLS Iteration 27 Cost 2.415e-05VQLS Iteration 28 Cost 8.572e-06VQLS Iteration 29 Cost 1.613e-05VQLS Iteration 30 Cost 6.140e-06VQLS Iteration 31 Cost 3.382e-05VQLS Iteration 32 Cost 1.840e-05VQLS Iteration 33 Cost 3.167e-06VQLS Iteration 34 Cost 4.617e-06VQLS Iteration 35 Cost 3.004e-06VQLS Iteration 36 Cost 2.928e-06VQLS Iteration 37 Cost 3.564e-06VQLS Iteration 38 Cost 7.806e-08VQLS Iteration 39 Cost 5.048e-06VQLS Iteration 40 Cost 1.596e-06VQLS Iteration 41 Cost 6.398e-08VQLS Iteration 42 Cost 5.994e-11VQLS Iteration 43 Cost 3.155e-09VQLS Iteration 44 Cost 9.237e-07VQLS Iteration 45 Cost 2.263e-07VQLS Iteration 46 Cost 1.565e-10VQLS Iteration 47 Cost 2.335e-07VQLS Iteration 48 Cost 5.651e-08VQLS Iteration 49 Cost 3.724e-11VQLS Iteration 50 Cost 5.678e-08VQLS Iteration 51 Cost 1.140e-08VQLS Iteration 52 Cost 9.394e-11VQLS Iteration 53 Cost 8.953e-09VQLS Iteration 54 Cost 3.493e-12VQLS Iteration 55 Cost 9.773e-09VQLS Iteration 1 Cost 9.773e-09VQLS Iteration 2 Cost 9.774e-09VQLS Iteration 3 Cost 9.774e-09VQLS Iteration 4 Cost 9.774e-09VQLS Iteration 5 Cost 9.774e-09VQLS Iteration 6 Cost 1.132e-08VQLS Iteration 7 Cost 1.132e-08VQLS Iteration 8 Cost 1.132e-08VQLS Iteration 9 Cost 1.132e-08VQLS Iteration 10 Cost 1.132e-08VQLS Iteration 11 Cost 3.331e-16VQLS Iteration 12 Cost 5.551e-16VQLS Iteration 13 Cost 5.551e-16VQLS Iteration 14 Cost 5.551e-16VQLS Iteration 15 Cost 6.661e-16Optimization terminated successfully.
-         Current function value: 0.000000
-         Iterations: 1
-         Function evaluations: 15
-         Gradient evaluations: 3
-
-   Normal return from subroutine COBYLA
-
-   NFVALS =   55   F = 9.772942E-09    MAXCV = 0.000000E+00
-   X = 2.639909E+00  -2.602042E-01  -9.363155E-01   1.466920E+00
-VQLS Iteration 1 Cost 8.837e-01VQLS Iteration 2 Cost 9.709e-01VQLS Iteration 3 Cost 9.709e-01VQLS Iteration 4 Cost 9.709e-01VQLS Iteration 5 Cost 9.709e-01VQLS Iteration 6 Cost 2.180e-01VQLS Iteration 7 Cost 2.296e-03VQLS Iteration 8 Cost 5.780e-01VQLS Iteration 9 Cost 2.296e-03VQLS Iteration 10 Cost 2.802e-01VQLS Iteration 11 Cost 5.818e-02VQLS Iteration 12 Cost 1.666e-02VQLS Iteration 13 Cost 2.260e-03VQLS Iteration 14 Cost 2.875e-03VQLS Iteration 15 Cost 1.274e-02VQLS Iteration 16 Cost 2.260e-03VQLS Iteration 17 Cost 2.935e-04VQLS Iteration 18 Cost 5.753e-03VQLS Iteration 19 Cost 8.595e-05VQLS Iteration 20 Cost 1.859e-03VQLS Iteration 21 Cost 1.453e-03VQLS Iteration 22 Cost 1.511e-04VQLS Iteration 23 Cost 1.553e-04VQLS Iteration 24 Cost 5.328e-05VQLS Iteration 25 Cost 4.545e-06VQLS Iteration 26 Cost 1.237e-04VQLS Iteration 27 Cost 9.635e-07VQLS Iteration 28 Cost 1.003e-04VQLS Iteration 29 Cost 4.200e-06VQLS Iteration 30 Cost 2.207e-04VQLS Iteration 31 Cost 1.027e-04VQLS Iteration 32 Cost 4.781e-05VQLS Iteration 33 Cost 6.694e-06VQLS Iteration 34 Cost 1.636e-05VQLS Iteration 35 Cost 9.859e-07VQLS Iteration 36 Cost 8.623e-07VQLS Iteration 37 Cost 5.136e-07VQLS Iteration 38 Cost 5.547e-07VQLS Iteration 39 Cost 3.395e-07VQLS Iteration 40 Cost 2.197e-06VQLS Iteration 41 Cost 5.312e-08VQLS Iteration 42 Cost 3.014e-06VQLS Iteration 43 Cost 5.924e-09VQLS Iteration 44 Cost 4.548e-09VQLS Iteration 45 Cost 1.076e-07VQLS Iteration 46 Cost 1.030e-06VQLS Iteration 47 Cost 1.342e-07VQLS Iteration 48 Cost 1.741e-09VQLS Iteration 49 Cost 2.846e-07VQLS Iteration 50 Cost 2.072e-09VQLS Iteration 51 Cost 1.459e-09VQLS Iteration 52 Cost 3.744e-08VQLS Iteration 53 Cost 1.747e-08VQLS Iteration 54 Cost 3.088e-09VQLS Iteration 55 Cost 3.901e-09VQLS Iteration 56 Cost 8.557e-10VQLS Iteration 57 Cost 5.027e-09VQLS Iteration 1 Cost 5.027e-09VQLS Iteration 2 Cost 5.028e-09VQLS Iteration 3 Cost 5.028e-09VQLS Iteration 4 Cost 5.028e-09VQLS Iteration 5 Cost 5.028e-09VQLS Iteration 6 Cost 5.809e-09VQLS Iteration 7 Cost 5.808e-09VQLS Iteration 8 Cost 5.808e-09VQLS Iteration 9 Cost 5.808e-09VQLS Iteration 10 Cost 5.808e-09VQLS Iteration 11 Cost 2.665e-15VQLS Iteration 12 Cost 2.665e-15VQLS Iteration 13 Cost 5.218e-15VQLS Iteration 14 Cost 3.331e-15VQLS Iteration 15 Cost 3.442e-15Optimization terminated successfully.
-         Current function value: 0.000000
-         Iterations: 1
-         Function evaluations: 15
-         Gradient evaluations: 3
-
-   Normal return from subroutine COBYLA
-
-   NFVALS =   57   F = 5.027189E-09    MAXCV = 0.000000E+00
-   X = 8.365284E-01  -3.818907E+00  -9.257635E-01   5.352141E-01
-/gpfs/home3/crocha1/wntr-quantum/wntr_quantum/epanet/Linux/libepanet22_amd64.so
-#############################################
-Classical results:
-
-* Epanet simulator: 
-
-name         J1         D1            R1
-0     29.647692  19.167677 -9.338379e-07
-3600  29.647692  19.167677 -9.338379e-07 
- name    P1    P2
-0     0.05  0.05
-3600  0.05  0.05 
-
-* Quantum Epanet simulator with classical linear solver: 
-
-name         J1         D1            R1
-0     29.647690  19.167675 -9.338379e-07
-3600  29.647692  19.167675 -9.338379e-07 
- name    P1    P2
-0     0.05  0.05
-3600  0.05  0.05
-############################################# 
-
-#############################################
-Size of the Jacobian in EPANET simulator: 2
-Size of the b vector in EPANET simulator: 2
-############################################# 
-
-#############################################
-Number of qubits needed: 1
-############################################# 
-
-/gpfs/home3/crocha1/wntr-quantum/wntr_quantum/epanet/Linux/libepanet22_amd64.so
-#############################################
-Quantum results:
-
-name         J1         D1            R1
-0     29.647690  19.167675 -9.338379e-07
-3600  29.647692  19.167681 -9.338379e-07 
- name    P1    P2
-0     0.05  0.05
-3600  0.05  0.05
-#############################################
-
-JOB STATISTICS
-==============
-Job ID: 7255818
-Cluster: snellius
-User/Group: crocha1/crocha1
-State: RUNNING
-Nodes: 1
-Cores per node: 16
-CPU Utilized: 00:00:00
-CPU Efficiency: 0.00% of 00:10:40 core-walltime
-Job Wall-clock time: 00:00:40
-Memory Utilized: 0.00 MB (estimated maximum)
-Memory Efficiency: 0.00% of 120.00 GB (7.50 GB/core)
-WARNING: Efficiency statistics may be misleading for RUNNING jobs.

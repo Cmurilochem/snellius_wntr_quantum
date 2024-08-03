@@ -2,6 +2,7 @@ import os
 from pathlib import Path
 import pickle
 import numpy as np
+import pandas.testing as pdt
 
 import wntr
 import wntr_quantum
@@ -35,6 +36,15 @@ linear_solver = SPLU_SOLVER()
 classical_sim = wntr_quantum.sim.QuantumEpanetSimulator(wn, linear_solver=linear_solver)
 classical_res = classical_sim.run_sim()
 
+# check equivalence between these results
+try:
+    pdt.assert_frame_equal(res.node["pressure"], classical_res.node["pressure"])
+    pdt.assert_frame_equal(res.link["flowrate"], classical_res.link["flowrate"])
+    is_classical_results_equivalent = True
+except AssertionError as err:
+    is_classical_results_equivalent = False
+    print(err)
+
 print("#############################################")
 print("Classical results:\n")
 
@@ -42,7 +52,11 @@ print("* Epanet simulator: \n")
 print(f"{res.node['pressure']} \n {res.link['flowrate']} \n")
 
 print("* Quantum Epanet simulator with classical linear solver: \n")
-print(f"{classical_res.node['pressure']} \n {classical_res.link['flowrate']}")
+print(f"{classical_res.node['pressure']} \n {classical_res.link['flowrate']} \n")
+
+print("* Are they numerically equivalent?:")
+print(f"{is_classical_results_equivalent} \n")
+
 print("############################################# \n")
 
 # load EPANET A and b matrices from temp
