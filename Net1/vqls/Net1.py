@@ -35,7 +35,7 @@ res = sim.run_sim()
 # run classical simulation using QuantumEpanetSimulator
 linear_solver = SPLU_SOLVER()
 classical_sim = wntr_quantum.sim.QuantumEpanetSimulator(wn, linear_solver=linear_solver)
-classical_res = classical_sim.run_sim()
+classical_res = classical_sim.run_sim(linear_solver=linear_solver)
 
 print("#############################################")
 print("Classical results:\n")
@@ -65,7 +65,7 @@ print("#############################################")
 print(f"Number of qubits needed: {n_qubits}")
 print("############################################# \n")
 
-qc = RealAmplitudes(n_qubits, reps=3, entanglement="full")
+qc = RealAmplitudes(n_qubits, reps=4, entanglement="full")
 estimator = Estimator()
 
 linear_solver = VQLS_SOLVER(
