@@ -21,7 +21,7 @@ inp = "Net0.inp"
 
 network_dir = Path("~/wntr-quantum/docs/notebooks/networks/").expanduser()
 inp_file = str(network_dir / inp)
-inp_file = '/home/samuel/Documents/Vitens/wntr-quantum/docs/notebooks/networks/Net0.inp'
+inp_file = '/home/svbeek/snellius_wntr_quantum/Net0/vqls/example-EPANET-networks/Net0.inp'
 
 # create a water network model
 wn = wntr.network.WaterNetworkModel(inp_file)
@@ -98,7 +98,7 @@ linear_solver = VQLS_SOLVER(
 linear_solver = HHL_SOLVER(
     estimator=estimator, 
     # preconditioner='diagonal_scaling')
-    )
+    )   
 
 quantum_sim = wntr_quantum.sim.QuantumEpanetSimulator(wn, linear_solver=linear_solver)
 quantum_res = quantum_sim.run_sim(linear_solver=linear_solver)
