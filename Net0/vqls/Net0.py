@@ -98,6 +98,7 @@ linear_solver = VQLS_SOLVER(
 linear_solver = HHL_SOLVER(
     estimator=estimator, 
     # preconditioner='diagonal_scaling')
+    )
 
 quantum_sim = wntr_quantum.sim.QuantumEpanetSimulator(wn, linear_solver=linear_solver)
 quantum_res = quantum_sim.run_sim(linear_solver=linear_solver)
