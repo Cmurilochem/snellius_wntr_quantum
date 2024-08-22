@@ -13,4 +13,4 @@ source ~/wntr-quantum/.venv/bin/activate
 export EPANET_QUANTUM=~/QuWATER_packages/EPANET
 export EPANET_TMP="$TMPDIR"
 
-python Net0.py
+python hhl-test.py

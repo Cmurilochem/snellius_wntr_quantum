@@ -13,6 +13,7 @@ from qiskit_algorithms import optimizers as opt
 
 from quantum_newton_raphson.vqls_solver import VQLS_SOLVER
 from quantum_newton_raphson.splu_solver import SPLU_SOLVER
+from quantum_newton_raphson.hhl_solver import HHL_SOLVER
 
 
 # input network
@@ -20,6 +21,7 @@ inp = "Net0.inp"
 
 network_dir = Path("~/wntr-quantum/docs/notebooks/networks/").expanduser()
 inp_file = str(network_dir / inp)
+inp_file = '/home/samuel/Documents/Vitens/wntr-quantum/docs/notebooks/networks/Net0.inp'
 
 # create a water network model
 wn = wntr.network.WaterNetworkModel(inp_file)
@@ -80,6 +82,8 @@ print("############################################# \n")
 qc = RealAmplitudes(n_qubits, reps=3, entanglement="full")
 estimator = Estimator()
 
+''' USE HHL INSTEAD '''
+'''
 linear_solver = VQLS_SOLVER(
     estimator=estimator,
     ansatz=qc,
@@ -89,6 +93,11 @@ linear_solver = VQLS_SOLVER(
     preconditioner="diagonal_scaling",
     reorder=True,
 )
+'''
+
+linear_solver = HHL_SOLVER(
+    estimator=estimator, 
+    # preconditioner='diagonal_scaling')
 
 quantum_sim = wntr_quantum.sim.QuantumEpanetSimulator(wn, linear_solver=linear_solver)
 quantum_res = quantum_sim.run_sim(linear_solver=linear_solver)
