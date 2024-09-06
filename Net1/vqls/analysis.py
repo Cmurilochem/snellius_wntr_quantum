@@ -115,10 +115,10 @@ for i, result in enumerate(quantum_res.linear_solver_results):
 
 print(f"Number of VQLS calls: {i}")
 
-plt.xlabel("Function evaluation")
+plt.xlabel("Function evaluations")
 plt.ylabel("Cost function")
 # plt.legend()
-plt.title(f"VQLS cost function at each VQLS call (total # of calls: {i+1})")
+plt.title(f"VQLS cost function at each VQLS call (# of total calls: {i+1})")
 
 plt.savefig(f"plot_{inp_file}_vqls_cost_function.png")
 #plt.show()
