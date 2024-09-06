@@ -104,3 +104,21 @@ ax_inset.set_yticks([-0.25, 0, 0.25])
 
 plt.savefig(f"plot_{inp_file}_results_correlation.png")
 # plt.show()
+
+# final graph - only for VQLS
+plt.close()
+
+# make a plot of the cost function of each VQLS call
+for i, result in enumerate(quantum_res.linear_solver_results):
+    # if i % 2 == 0:
+    plt.semilogy(result.logger.values, label=f"iter # {i}")
+
+print(f"Number of VQLS calls: {i}")
+
+plt.xlabel("Function evaluation")
+plt.ylabel("Cost function")
+# plt.legend()
+plt.title(f"VQLS cost function at each VQLS call (total # of calls: {i+1})")
+
+plt.savefig(f"plot_{inp_file}_vqls_cost_function.png")
+#plt.show()
